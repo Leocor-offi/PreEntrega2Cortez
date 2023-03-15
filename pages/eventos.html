@@ -3,67 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eventos</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <video autoplay muted loop class="background">
-        <source src="../assets/video/background.mp4" type="video/mp4">
-    </video>
-    <header class="header">
-        <div>
-            <a href="../index.html"><img src="../assets/img/logo.png" alt="logo de planeta azul" class="logo"></a>
-        </div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a class="navlink" href="./contacto.html">Contacto</a></li>
-                    <li><a class="navlink" href="#">Eventos</a></li>
-                    <li><a class="navlink" href="./proyectos.html">Proyectos</a></li>
-                    <li><a class="navlink" href="./nosotros.html">Nosotros</a></li>
-                    <li><a class="navlink" href="../index.html">Inicio</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="main">
-            <section>
-            <h1 class="titles">Eventos y Encuentros</h1>
-            </section>
-            <section>
-                <h2 class="subtitles">Evento 1 buenos aires fecha</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8091453439515!2d-58.39203878424528!3d-34.58369546394707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa12e375b6d%3A0x3f9f935dc99bf4fb!2sCentro%20de%20Convenciones%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1676705675495!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <a href="./contacto.html">Proponer exposicion</a>
-                <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
-            </section>
-            <section>
-                <h3 class="subtitles">Evento 2 londres fecha</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.770756286047!2d-0.13090508408076995!3d51.51742161779118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3288a86c13%3A0x7f6772e88764896!2sCongress%20Centre!5e0!3m2!1ses!2sar!4v1676705865396!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <a href="./contacto.html">Proponer exposicion</a>
-                <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
-            </section>
-            <section>
-                <h4 class="subtitles">Evento 3 madrid fecha</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48578.960494269915!2d-3.6287099417968838!3d40.44904150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42304860edb733%3A0xd2e6db91e599410!2sCentro%20de%20Congresos%20Pr%C3%ADncipe%20Felipe!5e0!3m2!1ses!2sar!4v1676705974206!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <a href="./contacto.html">Proponer exposicion</a>
-                <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
-            </section>
-    </main>
-    <footer class="footer">
-        <div class="footernav">
-            <a href="https://twitter.com/" target="_blank"><img src="../assets/img/twittericon.gif" alt="icono de twitter" class="socialnav"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebookicon.gif" alt="icono de facebook"class="socialnav"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagramicon.gif" alt="icono de instagram"class="socialnav"></a>
-        </div>
-        <div class="footernav">
-            <a href="https://www.paypal.com/" target="_blank" class="refbutton" >Donar a través de PayPal</a>
-            <a href="../pages/contacto.html" class="refbutton" >Participa</a>
-        </div>
-        <div>
-            <p class="copyrights">Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
-        </div>
-    </footer>
+    <div>
+        <header>
+            <div>
+                <div>
+                    <a href="#"><img src="./assets/img/logo.png" alt="logo de planeta azul"></a>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a class="navlink" href="./pages/contacto.html">Contacto</a></li>
+                            <li><a class="navlink" href="./pages/eventos.html">Eventos</a></li>
+                            <li><a class="navlink" href="./pages/proyectos.html">Proyectos</a></li>
+                            <li><a class="navlink" href="./pages/nosotros.html">Nosotros</a></li>
+                            <li><a class="navlink" href="#">Inicio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div>
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div>
+                        <H1>Eventos</H1>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <h2>Evento 1 buenos aires fecha</h2>
+                        </div>
+                        <div>
+                            <p>Descripcion</p>
+                        </div>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8091453439515!2d-58.39203878424528!3d-34.58369546394707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa12e375b6d%3A0x3f9f935dc99bf4fb!2sCentro%20de%20Convenciones%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1676705675495!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="./contacto.html">Proponer exposicion</a>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <h2>Evento 2 londres fecha</h2>
+                        </div>
+                        <div>
+                            <p>Descripcion</p>
+                        </div>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.770756286047!2d-0.13090508408076995!3d51.51742161779118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3288a86c13%3A0x7f6772e88764896!2sCongress%20Centre!5e0!3m2!1ses!2sar!4v1676705865396!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="./contacto.html">Proponer exposicion</a>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <h2>Evento 3 madrid fecha</h2>
+                        </div>
+                        <div>
+                            <p>Descripcion</p>
+                        </div>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48578.960494269915!2d-3.6287099417968838!3d40.44904150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42304860edb733%3A0xd2e6db91e599410!2sCentro%20de%20Congresos%20Pr%C3%ADncipe%20Felipe!5e0!3m2!1ses!2sar!4v1676705974206!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="./contacto.html">Proponer exposicion</a>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <a href="https://www.ticketek.com.ar/" target="_blank">Reservar entrada</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
+            </div>
+            <div>
+                <a href="https://twitter.com/" target="_blank"></a>
+                <a href="https://www.facebook.com/" target="_blank"></a>
+                <a href="https://www.instagram.com/" target="_blank"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

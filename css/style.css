@@ -3,32 +3,3 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;box-sizing: content-box;}
-    .background{ position: fixed;min-width: 100%;min-height: 100%;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);z-index: -1;}
-    .header{background-color: rgba(0, 0, 0, 0.85);position: sticky;top: 0px;min-height: 14vh;}
-        .logo{max-height: 10vh;margin: 2vh;position: absolute;top: 0px;}
-        li {display: inline;float: right;margin: 3vh;}
-        .navlink{text-decoration: none; color: white;font-size: 1.5rem;background-color: rgb(32, 44, 160);padding: 1vh;border-radius: 95px 95px 95px 95px;
-            -webkit-border-radius: 95px 95px 95px 95px;
-            -moz-border-radius: 95px 95px 95px 95px;}
-    .main{background-color: rgba(255, 255, 255, 0.9);
-        width: 70%;
-        padding: 5%;
-        margin: 5% 10%;}
-        .titles{text-align: center;font-size: 2.5rem;color: rgb(4, 4, 138);margin-bottom: 10vh;text-shadow: 4px 4px 2px rgba(0,0,0,0.24);}
-        .imgmain{max-height: 50vh;display: block;margin: auto;margin-top: 3vh;margin-bottom: 3vh;box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
-            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
-            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);}
-        .texts{text-align: justify;font-size: 1.2rem;}
-        .navsection{display: inline-block; background-color: rgb(255, 255, 255);margin: 3%;box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.5); max-width: 50vh;padding: 3vh;margin-left: 8vh;}
-            .navlinksub{text-align: center;text-decoration: none;color: rgb(4, 4, 138);text-shadow: 4px 4px 2px rgba(0,0,0,0.24);}
-            .navimg{max-height: 25vh;display: block;margin: auto;margin-top: 1.5vh;margin-bottom: 1.5vh;}
-            .navimgevent{max-height: 25vh;display: block;margin: auto;margin-top: 1.5vh;margin-bottom: 1.5vh;}
-            .navtext{text-align: justify;font-size: 1rem;font-weight: bolder;margin: 1vh;}
-        .subtitles{text-align: justify;text-shadow: 4px 4px 2px rgba(0,0,0,0.24);}
-    .footer{background-color: rgba(0, 0, 0, 0.85);position: sticky;bottom: 0px;min-height: 10vh;}
-        .footernav{display: inline;float: right;}
-        .refbutton{display: inline;float: right;margin: 2vh; text-decoration: none; color: rgb(0, 0, 0);font-size: 1.5rem;font-weight: bold; background-color: rgb(255, 217, 0);padding: 1vh;border-radius: 95px 95px 95px 95px;
-            -webkit-border-radius: 95px 95px 95px 95px;
-            -moz-border-radius: 95px 95px 95px 95px;}
-        .socialnav{max-height: 5vh;display: inline;margin: 2vh;float: right;}
-        .copyrights{color: white; text-align: right;margin-left: 5vh;position: fixed;bottom: 0;}
