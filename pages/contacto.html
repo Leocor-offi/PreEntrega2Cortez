@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <video autoplay muted loop class="background">
+        <source src="../assets/video/background.mp4" type="video/mp4">
+    </video>
+    <header class="header">
+        <div>
+            <a href="../index.html"><img src="../assets/img/logo.png" alt="logo de planeta azul" class="logo"></a>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a class="navlink" href="#">Contacto</a></li>
+                    <li><a class="navlink" href="./eventos.html">Eventos</a></li>
+                    <li><a class="navlink" href="./proyectos.html">Proyectos</a></li>
+                    <li><a class="navlink" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="navlink" href="../index.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+            <section>
+            <h1 class="titles">Contactos y Donaciones</h1>
+            </section>
+            <section>
+                <h2 class="subtitles">Contanos tus propuestas y como queres contribuir</h2>
+                <div>
+                    <form action="validar.html">
+                        <div>
+                            <label for="nombre"> Nombre Completo </label>
+                            <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido..." minlength="3" maxlength="50" required autofocus autocomplete="off">                           
+                        </div>
+                        <div>
+                            <label for="mail">Mail</label>
+                            <input id="mail" name="mail" type="email" placeholder="ejemplo@mail.com" required>
+                        </div>
+                        <fieldset>
+                            <legend>Ingrese los siguientes Datos</legend>
+                            <div>
+                                <label for="fnac">Fecha de Nacimiento</label>
+                                <input id="fnac" name="fecha_nac" type="date" required>
+                            </div>
+                        <fieldset>
+                            <div>
+                                <label for="lang">Indique Idioma</label>
+                                <select name="Idioma" id="lang">
+                                    <option value="Español" selected>Español</option>
+                                    <option value="Ingles">Ingles</option>
+                                    <option value="Alemán">Alemán</option>
+                                    <option value="Francés">Francés</option>
+                                    <option value="Chino">Chino</option>
+                                    <option value="Japonés">Japonés</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Indique un Comentario</legend>
+                            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario"></textarea>
+                        </fieldset>
+                        <div>
+                            <fieldset>
+                                <input id="enviar" type="submit" value="Enviar">
+                                <input id="reset" type="reset" value="Limpiar">
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <aside>
+                <img src="../assets/img/contact.jpg" alt="grupo de personas limpiando la playa de desechos plasticos">
+                <a href="https://www.paypal.com/" target="_blank">donar a través de paypal</a>
+            </aside>
+    </main>
+    <footer class="footer">
+        <div class="footernav">
+            <a href="https://twitter.com/" target="_blank"><img src="../assets/img/twittericon.gif" alt="icono de twitter" class="socialnav"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../assets/img/facebookicon.gif" alt="icono de facebook"class="socialnav"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../assets/img/instagramicon.gif" alt="icono de instagram"class="socialnav"></a>
+        </div>
+        <div class="footernav">
+            <a href="https://www.paypal.com/" target="_blank" class="refbutton" >Donar a través de PayPal</a>
+            <a href="../pages/contacto.html" class="refbutton" >Participa</a>
+        </div>
+        <div>
+            <p class="copyrights">Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
+        </div>
+    </footer>
+</body>
+</html>
