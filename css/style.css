@@ -322,3 +322,49 @@
     .footeri{
         font-size: 3rem;
     }
+    @media (max-width: 760px) {
+        .main{
+            overflow: hidden;
+        }
+        video{
+            display: none;
+        }
+        .secindex1{
+            background-image: url(../assets/img/bg.png);
+            min-height: 50vh;
+        }
+        .textindex{
+            font-size: 1.5rem;
+        }
+        .botonparticipar{
+            font-size: 1.5rem;
+        }
+        .datatext{
+            font-size: 2rem;
+        }
+        .index3{
+            display: none;
+        }
+        .textindexunirse{
+            font-size: 1.5rem;
+        }
+        .botonparticipar2{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .titleproyectos{
+            background-image: url(../assets/img/bg.png);
+            font-size: 2rem;
+            padding: 20%;
+        }
+        .youtubevideo{
+            margin-bottom: 2vh;
+        }
+        .footer{
+            padding: 0.5vh;
+            font-size: 0.9rem;
+        }
+        .footeri{
+            font-size: 1.5rem;
+        }
+    }
