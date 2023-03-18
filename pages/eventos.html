@@ -7,6 +7,7 @@
     <title>Eventos</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2fac367478.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -14,28 +15,28 @@
         <header>
             <div>
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-dark colornav">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.jpg" alt="logo de planeta azul"></a>
+                            <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.jpg" alt="logo de planeta azul" class="logo"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav w-100 navul">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    <a class="nav-link navboton" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                                    <a class="nav-link navboton" href="./nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                                    <a class="nav-link navboton" href="./proyectos.html">Proyectos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Eventos</a>
+                                    <a class="nav-link active navboton" aria-current="page" href="#">Eventos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./contacto.html">Participa</a>
+                                    <a class="nav-link navboton" href="./contacto.html">Participa</a>
                                 </li>
                             </ul>
                         </div>
@@ -47,86 +48,70 @@
         <main>
             <div>
                 <div>
-                    <div>
-                        <img src="../assets/img/eventos.jpg" alt="">
-                    </div>
-                    <div>
-                        <H1>Eventos</H1>
+                    <div class="tituloevent">
+                        <img src="../assets/img/eventos.jpg" alt="reunión de personas en congreso sobre contaminación marítima" class="imgeventos">
+                        <h1 class="centered titleteventos">Eventos</h1>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <div>
-                            <h2>Buenos Aires 18/04/23 “Pesca Responsable”</h2>
+                <div class="container-fluid">
+                    <div class="row eventcard">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="eventostitles">Buenos Aires 18/04/23 “Pesca Responsable”</h2>
                         </div>
-                        <div>
-                            <p>El Dr. Clark Ashton Smith dirige el XI encuentro de pesca responsable y sustentable en la ciudad de Buenos Aires, quien presenta diversos temas y expositores respecto a la pesca responsable.</p>
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <p class="eventostext">El Dr. Clark Ashton Smith dirige el XI encuentro de pesca responsable y sustentable en la ciudad de Buenos Aires, quien presenta diversos temas y expositores respecto a la pesca responsable.</p>
                         </div>
-                        <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8091453439515!2d-58.39203878424528!3d-34.58369546394707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa12e375b6d%3A0x3f9f935dc99bf4fb!2sCentro%20de%20Convenciones%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1676705675495!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8091453439515!2d-58.39203878424528!3d-34.58369546394707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa12e375b6d%3A0x3f9f935dc99bf4fb!2sCentro%20de%20Convenciones%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1676705675495!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <a href="./contacto.html"><button type="button" class="botonparticipar botonevento">Proponer exposicion</button></a>
+                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="botonparticipar botonevento">Reservar entrada</button></a>
+                        </div> 
+                    </div>
+                    <div class="row eventcard">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="eventostitles">Londres 25/07/23 “Recolección de residuos en Océanos”</h2>
+                        </div>
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <p class="eventostext">El Celebre profesor Herman Hermitage nos muestra los avances en las redes de pesca y los métodos de recolección de residuos, entre los temas que se tratan están las velocidades de arrastre y la incidencia en los ecosistemas, materiales de las redes y movilidad y huellas de carbono.</p>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.770756286047!2d-0.13090508408076995!3d51.51742161779118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3288a86c13%3A0x7f6772e88764896!2sCongress%20Centre!5e0!3m2!1ses!2sar!4v1676705865396!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <a href="./contacto.html"><button type="button" class="botonparticipar botonevento">Proponer exposicion</button></a>
+                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="botonparticipar botonevento">Reservar entrada</button></a>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <a href="./contacto.html"><button type="button" class="btn btn-primary btn-lg">Proponer exposicion</button></a>
+                    <div class="row eventcard">
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <h2 class="eventostitles">Madrid 07/09/23 “Mitigación de efectos de los desastres medioambientales petrolíferos”</h2>
                         </div>
-                        <div>
-                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="btn btn-primary btn-lg">Reservar entrada</button></a>
+                        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                            <p class="eventostext">VII congreso internacional sobre nuevos métodos para mitigar los efectos medioambientales en derrames petrolíferos costeros y de aguas profundas.</p>
                         </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h2>Londres 25/07/23 “Recolección de residuos en Océanos”</h2>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48578.960494269915!2d-3.6287099417968838!3d40.44904150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42304860edb733%3A0xd2e6db91e599410!2sCentro%20de%20Congresos%20Pr%C3%ADncipe%20Felipe!5e0!3m2!1ses!2sar!4v1676705974206!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
                         </div>
-                        <div>
-                            <p>El Celebre profesor Herman Hermitage nos muestra los avances en las redes de pesca y los métodos de recolección de residuos, entre los temas que se tratan están las velocidades de arrastre y la incidencia en los ecosistemas, materiales de las redes y movilidad y huellas de carbono.</p>
-                        </div>
-                        <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.770756286047!2d-0.13090508408076995!3d51.51742161779118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3288a86c13%3A0x7f6772e88764896!2sCongress%20Centre!5e0!3m2!1ses!2sar!4v1676705865396!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="./contacto.html"><button type="button" class="btn btn-primary btn-lg">Proponer exposicion</button></a>
-                        </div>
-                        <div>
-                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="btn btn-primary btn-lg">Reservar entrada</button></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h2>Madrid 07/09/23 “Mitigación de efectos de los desastres medioambientales petrolíferos”</h2>
-                        </div>
-                        <div>
-                            <p>VII congreso internacional sobre nuevos métodos para mitigar los efectos medioambientales en derrames petrolíferos costeros y de aguas profundas.</p>
-                        </div>
-                        <div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48578.960494269915!2d-3.6287099417968838!3d40.44904150000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42304860edb733%3A0xd2e6db91e599410!2sCentro%20de%20Congresos%20Pr%C3%ADncipe%20Felipe!5e0!3m2!1ses!2sar!4v1676705974206!5m2!1ses!2sar" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="./contacto.html"><button type="button" class="btn btn-primary btn-lg">Proponer exposicion</button></a>
-                        </div>
-                        <div>
-                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="btn btn-primary btn-lg">Reservar entrada</button></a>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                            <a href="./contacto.html"><button type="button" class="botonparticipar botonevento">Proponer exposicion</button></a>
+                            <a href="https://www.ticketek.com.ar/home" target="_blank"><button type="button" class="botonparticipar botonevento">Reservar entrada</button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        <footer>
-            <div>
-                <p>Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
-            </div>
-            <div>
-                <a href="https://twitter.com/" target="_blank"></a>
-                <a href="https://www.facebook.com/" target="_blank"></a>
-                <a href="https://www.instagram.com/" target="_blank"></a>
+        <footer class="footer">
+            <div class="d-flex justify-content-center align-items-center justify-content-around">
+                <div>
+                    <p>Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
+                </div>
+                <div class="redes">
+                    <a href="https://twitter.com/" target="_blank"><i class="footeri fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="footeri fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="footeri fa-brands fa-instagram"></i></a>
+                </div>
             </div>
         </footer>
     </div>
