@@ -8,163 +8,154 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2fac367478.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
-    <div>
-        <header>
-            <div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark colornav w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/img/logo.jpg" alt="logo de planeta azul" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 navul">
+                    <li class="nav-item">
+                        <a class="nav-link active navboton" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navboton" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navboton" href="./pages/proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navboton" href="./pages/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navboton" href="./pages/contacto.html">Participa</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid main">
+        <div class="secindex1 row d-flex flex-column justify-content-center align-items-center">
+                <video autoplay muted loop class="videobg" poster="./assets/img/proyectos.png">
+                    <source src="./assets/video/index.mp4" type="video/mp4">
+                </video>
+            <div class="textindex card-img-overlay col-lg-12">
+                <p>Comprometidos con el mar, sus habitantes 
+                    y las personas que viven y disfrutan de él</p>
+                <a href="./pages/contacto.html"><button type="button" class="botonparticipar">Participar</button></a>
+            </div>
+        </div>
+        <div class="secindex2 row h-100">
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/data1.jpg" class="card-img" alt="recolección de residuos plásticos en la playa">
+                <div class="card-img-overlay">
+                <p class="datatext">333<p>
+                <p class="datatext">Limpiezas de playas realizadas</p>
+                </div>
+            </div>
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/data2.jpg" class="card-img" alt="recolección de residuos plásticos en los océanos">
+                <div class="card-img-overlay">
+                <p class="datatext">777<p>
+                <p class="datatext">Toneladas de residuos reciclados</p>
+                </div>
+            </div>
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/data3.jpg" class="card-img" alt="personas en la playa recolectando residuos plásticos">
+                <div class="card-img-overlay">
+                <p class="datatext">33K<p>
+                <p class="datatext">Miembros en 55 países</p>
+                </div>
+            </div>
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-dark colornav w-100">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="#"><img src="./assets/img/logo.jpg" alt="logo de planeta azul" class="logo"></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav w-100 navul">
-                                <li class="nav-item">
-                                    <a class="nav-link active navboton" aria-current="page" href="#">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navboton" href="./pages/nosotros.html">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navboton" href="./pages/proyectos.html">Proyectos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navboton" href="./pages/eventos.html">Eventos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link navboton" href="./pages/contacto.html">Participa</a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                    </nav>
+                    <a href="./pages/nosotros.html"><img src="./assets/img/iconnosotros.webp" alt="icono nosotros"></a>
+                </div>
+                <div class="accesstextindextitle">
+                    <p>Nosotros</p>
+                </div>
+                <div class="accesstextindex">
+                    <p>Comunidad centrada en el cuidado de nuestros mares, océanos y sus habitantes mejorando la calidad de vida y los ecosistemas</p>
                 </div>
             </div>
-        </header>
-        <main class="container-fluid main">
-            <div>
-                <div class="secindex1 row d-flex flex-column justify-content-center align-items-center">
-                        <video autoplay muted loop class="videobg" poster="./assets/img/proyectos.png">
-                            <source src="./assets/video/index.mp4" type="video/mp4">
-                        </video>
-                    <div class="textindex card-img-overlay col-lg-12">
-                        <p>Comprometidos con el mar, sus habitantes 
-                            y las personas que viven y disfrutan de él</p>
-                        <a href="./pages/contacto.html"><button type="button" class="botonparticipar">Participar</button></a>
-                    </div>
-                </div>
-                <div class="secindex2 row h-100">
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/data1.jpg" class="card-img" alt="recolección de residuos plásticos en la playa">
-                        <div class="card-img-overlay">
-                        <p class="datatext">333<p>
-                        <p class="datatext">Limpiezas de playas realizadas</p>
-                        </div>
-                    </div>
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/data2.jpg" class="card-img" alt="recolección de residuos plásticos en los océanos">
-                        <div class="card-img-overlay">
-                        <p class="datatext">777<p>
-                        <p class="datatext">Toneladas de residuos reciclados</p>
-                        </div>
-                    </div>
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/data3.jpg" class="card-img" alt="personas en la playa recolectando residuos plásticos">
-                        <div class="card-img-overlay">
-                        <p class="datatext">33K<p>
-                        <p class="datatext">Miembros en 55 países</p>
-                        </div>
-                    </div>
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <a href="./pages/nosotros.html"><img src="./assets/img/iconnosotros.webp" alt="icono nosotros"></a>
-                        </div>
-                        <div class="accesstextindextitle">
-                            <p>Nosotros</p>
-                        </div>
-                        <div class="accesstextindex">
-                            <p>Comunidad centrada en el cuidado de nuestros mares, océanos y sus habitantes mejorando la calidad de vida y los ecosistemas</p>
-                        </div>
-                    </div>
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <a href="./pages/proyectos.html"><img src="./assets/img/iconproyectos.webp" alt="icono proyectos"></a>
-                        </div>
-                        <div class="accesstextindextitle">
-                            <p>Proyectos</p>
-                        </div>
-                        <div class="accesstextindex">
-                            <p>Proyectos centrados tanto en trabajos de la comunidad y de los ecosistemas costeros como en mar abierto y en los océanos</p>
-                        </div>
-                    </div>
-                    <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <a href="./pages/eventos.html"><img src="./assets/img/iconeventos.webp" alt="icono eventos"></a>
-                        </div>
-                        <div class="accesstextindextitle">
-                            <p>Eventos</p>
-                        </div>
-                        <div class="accesstextindex">
-                            <p>Realizamos eventos informativos y de formación de comunidades en muchos países a lo largo del mundo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="secindex3 d-flex flex-row justify-content-center align-items-center">
-                        <div class="col-lg-6 sectextunirse">
-                            <p class="textindexunirse">Forma parte de nuestra comunidad y ayuda a limpiar nuestras playas y mares, participa en mejorar nuestros océanos para las generaciones venideras y sus habitantes. Ya sea desde la limpieza de playas o rescates en derrames petrolíferos a participar en nuestros grandes proyectos de limpieza del océano mediante redes especializadas que son amigables con los ecosistemas y sin huella de carbono.</p>
-                            <a href="./pages/contacto.html"><button type="button" class="botonparticipar2">Participa con nosotros</button></a>
-                        </div>
-                        <div class="index3 col-lg-6 justify-content-center align-items-center card border-0">
-                            <img src="./assets/img/indexunirse.jpg" alt="hombre buceando junto a redes abandonas en el océano" class="imgunirse">
-                        </div>
-                    </div>
-                </div>
-                <div class="secindex4 row h-100">
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa1.jpg" class="card-img" alt="tortuga nadando junto a botella plástica">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa2.jpg" class="card-img" alt="embarcación utilizando redes para recoger residuos plásticos en el océano">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa3.jpg" class="card-img" alt="foca joven enredada entre redes plásticas abandonadas">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa4.jpg" class="card-img" alt="madre e hijo recolectando residuos plásticos en la playa">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa5.jpg" class="card-img" alt="bolsa plástica flotando en el océano">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa6.jpg" class="card-img" alt="tortuga marina nadando junto a bolsa plástica en el océano">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa7.jpg" class="card-img" alt="nutria marina mordisqueando bolsa plástica">
-                    </div>
-                    <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
-                        <img src="./assets/img/indexa8.jpg" class="card-img" alt="manos recogiendo plásticos en la playa">
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="d-flex justify-content-center align-items-center justify-content-around">
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <div>
-                    <p>Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
+                    <a href="./pages/proyectos.html"><img src="./assets/img/iconproyectos.webp" alt="icono proyectos"></a>
                 </div>
-                <div class="redes">
-                    <a href="https://twitter.com/" target="_blank"><i class="footeri fa-brands fa-square-twitter"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="footeri fa-brands fa-square-facebook"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="footeri fa-brands fa-instagram"></i></a>
+                <div class="accesstextindextitle">
+                    <p>Proyectos</p>
+                </div>
+                <div class="accesstextindex">
+                    <p>Proyectos centrados tanto en trabajos de la comunidad y de los ecosistemas costeros como en mar abierto y en los océanos</p>
                 </div>
             </div>
-        </footer>
-    </div>
+            <div class="dataindex col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <a href="./pages/eventos.html"><img src="./assets/img/iconeventos.webp" alt="icono eventos"></a>
+                </div>
+                <div class="accesstextindextitle">
+                    <p>Eventos</p>
+                </div>
+                <div class="accesstextindex">
+                    <p>Realizamos eventos informativos y de formación de comunidades en muchos países a lo largo del mundo</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="secindex3 d-flex flex-row justify-content-center align-items-center">
+                <div class="col-lg-6 sectextunirse">
+                    <p class="textindexunirse">Forma parte de nuestra comunidad y ayuda a limpiar nuestras playas y mares, participa en mejorar nuestros océanos para las generaciones venideras y sus habitantes. Ya sea desde la limpieza de playas o rescates en derrames petrolíferos a participar en nuestros grandes proyectos de limpieza del océano mediante redes especializadas que son amigables con los ecosistemas y sin huella de carbono.</p>
+                    <a href="./pages/contacto.html"><button type="button" class="botonparticipar2">Participa con nosotros</button></a>
+                </div>
+                <div class="index3 col-lg-6 justify-content-center align-items-center card border-0">
+                    <img src="./assets/img/indexunirse.jpg" alt="hombre buceando junto a redes abandonas en el océano" class="imgunirse">
+                </div>
+            </div>
+        </div>
+        <div class="secindex4 row h-100">
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa1.jpg" class="card-img" alt="tortuga nadando junto a botella plástica">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa2.jpg" class="card-img" alt="embarcación utilizando redes para recoger residuos plásticos en el océano">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa3.jpg" class="card-img" alt="foca joven enredada entre redes plásticas abandonadas">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa4.jpg" class="card-img" alt="madre e hijo recolectando residuos plásticos en la playa">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa5.jpg" class="card-img" alt="bolsa plástica flotando en el océano">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa6.jpg" class="card-img" alt="tortuga marina nadando junto a bolsa plástica en el océano">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa7.jpg" class="card-img" alt="nutria marina mordisqueando bolsa plástica">
+            </div>
+            <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center card border-0">
+                <img src="./assets/img/indexa8.jpg" class="card-img" alt="manos recogiendo plásticos en la playa">
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="d-flex justify-content-center align-items-center justify-content-around">
+            <div>
+                <p>Blue Planet Foundation 2023 © Todos los derechos reservados © By LeoCor</p>
+            </div>
+            <div class="redes">
+                <a href="https://twitter.com/" target="_blank"><i class="footeri fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="footeri fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="footeri fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
