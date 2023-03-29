@@ -20,7 +20,7 @@
   border-radius: 15px;
   border-style: none;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: white;
   margin: 11px;
   text-align: center;
   justify-content: center;
@@ -71,7 +71,7 @@
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #fff;
+  color: white;
   cursor: pointer;
   display: inline-flex;
   height: 48px;
@@ -117,7 +117,7 @@
 }
 
 .datatext {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 3.5rem;
   font-weight: 900;
   font-style: italic;
@@ -170,7 +170,7 @@
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   box-sizing: border-box;
-  color: #fff;
+  color: white;
   cursor: pointer;
   display: inline-flex;
   height: 48px;
@@ -321,7 +321,7 @@
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
-  border: 3px #000000;
+  border: 3px black;
 }
 
 .eventostitles {
@@ -371,21 +371,6 @@
   margin: 2vh;
 }
 
-.footer {
-  background-color: black;
-  color: white;
-}
-
-.redes {
-  display: flex;
-  justify-content: space-around;
-  min-width: 30vw;
-}
-
-.footeri {
-  font-size: 3rem;
-}
-
 @media (max-width: 760px) {
   .main {
     overflow: hidden;
@@ -424,11 +409,49 @@
   .youtubevideo {
     margin-bottom: 2vh;
   }
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.footer .footer__redes {
+  display: flex;
+  justify-content: space-around;
+  min-width: 30vw;
+}
+.footer .footer__redes .footer__redes__i {
+  font-size: 3rem;
+}
+
+@media (max-width: 760px) {
   .footer {
-    padding: 0.5vh;
-    font-size: 0.9rem;
+    padding: 1.5vh;
+    font-size: 1rem;
   }
-  .footeri {
-    font-size: 1.5rem;
+  .footer .footer__redes__i {
+    margin: 2.5px;
+    font-size: 3rem;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*
+.footer__redes{
+    display: flex;
+    justify-content: space-around;
+    min-width: 30vw;
+}
+.footer__redes__i{
+    font-size: 3rem;
+}
+@media (max-width: 760px) {
+    .footer{
+        padding: 1.5vh;
+        font-size: 1rem;
+    }
+    .footer__redes__i{
+        margin: 2.5px;
+        font-size: 3rem;
+    }
+}
+*//*# sourceMappingURL=style.css.map */
