@@ -416,12 +416,12 @@
   font-size: 1.5rem;
   padding: 10px;
 }
-.footer .footer__redes {
+.footer .footer__div .footer__div__redes {
   display: flex;
   justify-content: space-around;
   min-width: 30vw;
 }
-.footer .footer__redes .footer__redes__i {
+.footer .footer__div .footer__div__redes .footer__div__redes__i {
   font-size: 3rem;
 }
 
@@ -430,7 +430,7 @@
     padding: 1.5vh;
     font-size: 1rem;
   }
-  .footer .footer__redes__i {
+  .footer .footer__div .footer__div__redes .footer__div__redes__i {
     margin: 2.5px;
     font-size: 3rem;
   }
