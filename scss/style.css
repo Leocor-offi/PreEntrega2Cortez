@@ -6,25 +6,26 @@
   box-sizing: border-box;
 }
 
-.logo {
-  max-height: 12vh;
-}
-
-.colornav {
+.navcontainer {
   background-color: black;
   font-size: 1.3rem;
 }
-
-.navboton {
+.navcontainer .navcontainer__div1 .navcontainer__div1__logo {
+  max-height: 12vh;
+}
+.navcontainer .navcontainer__div2 .navcontainer__div2__ul {
+  justify-content: right;
+}
+.navcontainer .navcontainer__div2 .navcontainer__div2__ul .navcontainer__div2__ul__li .navcontainer__div2__ul__li__button {
   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
   border-radius: 15px;
   border-style: none;
   box-sizing: border-box;
-  color: white;
+  color: gray;
   margin: 11px;
   text-align: center;
   justify-content: center;
-  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.22);
   transition: all 0.5s;
   -moz-user-select: none;
        user-select: none;
@@ -32,11 +33,41 @@
   touch-action: manipulation;
   font-size: 2rem;
 }
-
-.navul {
-  justify-content: right;
+.navcontainer .navcontainer__div2 .navcontainer__div2__ul .navcontainer__div2__ul__li .navcontainer__div2__ul__li__button__active {
+  color: white;
+}
+.navcontainer .navcontainer__div2 .navcontainer__div2__ul .navcontainer__div2__ul__li .navcontainer__div2__ul__li__button:hover {
+  color: white;
 }
 
+/*
+.logo{
+    max-height: 12vh;
+}
+.navcontainer{
+    background-color: $color-black;
+    font-size: 1.3rem;
+}
+.navboton{
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 15px;
+    border-style: none;
+    box-sizing: border-box;
+    color: $color-white;
+    margin: 11px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: 2rem;
+}
+.navul{
+    justify-content: right;
+}
+*/
 .secindex1 {
   padding: 0%;
   display: flex;
