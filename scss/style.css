@@ -374,34 +374,6 @@
   margin: 2vh;
 }
 
-.imgcontacto {
-  -o-object-fit: cover;
-     object-fit: cover;
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.titletcontacto {
-  color: black;
-}
-
-.contactotext {
-  color: black;
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 1vh;
-  padding: 1vh;
-  text-align: center;
-}
-
-.contactoform {
-  max-width: 80%;
-}
-
-.formulario {
-  margin: 2vh;
-}
-
 @media (max-width: 760px) {
   .main {
     overflow: hidden;
@@ -441,6 +413,146 @@
     margin-bottom: 2vh;
   }
 }
+.containercontacto1 .containercontacto1__principal .containercontacto1__principal__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-width: 100%;
+  max-width: 100%;
+  filter: blur(2px);
+}
+.containercontacto1 .containercontacto1__principal .containercontacto1__principal__titulo {
+  color: black;
+}
+
+.containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div1 .containercontacto2__div1__div1__titulo {
+  color: #0d1169;
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 2vh;
+}
+.containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div2 .containercontacto2__div1__div2__texto {
+  color: black;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin: 1vh;
+  padding: 2vh;
+  text-align: center;
+}
+.containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div3 .containercontacto2__div1__div3__button {
+  align-items: center;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left;
+  font-size: 3rem;
+  margin: 2vh;
+}
+.containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div3 .containercontacto2__div1__div3__button:hover {
+  background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.33);
+  transition: 0.3s;
+}
+.containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form {
+  margin: 2vh;
+  max-width: 80%;
+}
+.containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form .containercontacto2__div2__form__div {
+  margin: 2vh;
+}
+.containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form .containercontacto2__div2__form__div .containercontacto2__div2__form__div__button {
+  align-items: center;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: white;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left;
+  font-size: 3rem;
+  margin: 2vh;
+}
+.containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form .containercontacto2__div2__form__div .containercontacto2__div2__form__div__button:hover {
+  background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.33);
+  transition: 0.3s;
+}
+.containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form .containercontacto2__div2__form__div .containercontacto2__div2__form__div__label {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 760px) {
+  .containercontacto1 .containercontacto1__principal .containercontacto1__principal__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    min-height: 40vh;
+    filter: blur(1px);
+  }
+  .containercontacto1 .containercontacto1__principal .containercontacto1__principal__titulo {
+    font-size: 3rem;
+  }
+  .containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div1 .containercontacto2__div1__div1__titulo {
+    color: #0d1169;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div2 .containercontacto2__div1__div2__texto {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .containercontacto2 .containercontacto2__div1 .containercontacto2__div1__div3 .containercontacto2__div1__div3__button {
+    font-size: 1.5rem;
+  }
+  .containercontacto2 .containercontacto2__div2 .containercontacto2__div2__form {
+    padding-right: 5vw;
+    max-width: 80%;
+  }
+}
+/*
+.imgcontacto{
+    object-fit: cover;
+    min-width: 100%;
+    max-width: 100%;
+}
+.titletcontacto{
+    color: $color-black;
+}
+
+.contactotext{
+    color: $color-black;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+}
+.contactoform{
+    max-width: 80%;
+}
+.formulario{
+    margin:2vh
+}
+*/
 .footer {
   background-color: black;
   color: white;
