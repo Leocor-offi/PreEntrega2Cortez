@@ -74,6 +74,34 @@
         }
     }
 }
+@media (max-width: 760px){
+    .contenedor1{
+        .contenedor1__div{
+            .contenedor1__div__h1{
+            }
+        }
+    }
+    .contenedor2{
+        .contenedor2__div1{
+            .contenedor2__div1__h2{
+            }
+            .contenedor2__div1__p{
+            }
+            .contenedor2__div1__iframe{
+            }
+        }
+        .contenedor2__div2{
+            .contenedor2__div2__h2{
+            }
+            .contenedor2__div2__p1{
+            }
+            .contenedor2__div2__p2{
+            }
+            .contenedor2__div2__iframe{
+            }
+        }
+    }
+}
 /*
 .titleproyectos{
     position: relative;

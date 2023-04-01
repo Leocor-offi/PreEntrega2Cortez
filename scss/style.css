@@ -304,14 +304,18 @@
   display: flex;
   background-color: black;
 }
-
-.containermainindex {
-  overflow: hidden;
+@media (max-width: 760px) {
+  .containermainindex {
+    overflow: hidden;
+  }
+  .containermainindex .containermainindex__div1 {
+    background-image: url(../assets/img/bg.png);
+    min-height: 50vh;
+  }
+  .containermainindex .containermainindex__div3 .containermainindex__div3__div1 .containermainindex__div3__div1__div2 .containermainindex__div3__div1__div2__img {
+    display: none;
+  }
 }
-.containermainindex .containermainindex__div3 .containermainindex__div3__div1 .containermainindex__div3__div1__div2 .containermainindex__div3__div1__div2__img {
-  display: none;
-}
-
 /*
 .secindex1{
     padding: 0%;
@@ -432,37 +436,38 @@
     .index3{
         display: none;
     }
-*/
-@media (max-width: 760px) {
-  .secindex1 {
-    background-image: url(../assets/img/bg.png);
-    min-height: 50vh;
-  }
-  .textindex {
-    font-size: 1.5rem;
-  }
-  .botonparticipar {
-    font-size: 1.5rem;
-  }
-  .datatext {
-    font-size: 2rem;
-  }
-  .textindexunirse {
-    font-size: 1.5rem;
-  }
-  .botonparticipar2 {
-    font-size: 1rem;
-    text-align: center;
-  }
-  .titleproyectos {
-    background-image: url(../assets/img/bg.png);
-    font-size: 2rem;
-    padding: 20%;
-  }
-  .youtubevideo {
-    margin-bottom: 2vh;
-  }
+    .secindex1{
+        background-image: url(../assets/img/bg.png);
+        min-height: 50vh;
+    }
+
+    .textindex{
+        font-size: 1.5rem;
+    }
+    .botonparticipar{
+        font-size: 1.5rem;
+    }
+    .datatext{
+        font-size: 2rem;
+    }
+
+    .textindexunirse{
+        font-size: 1.5rem;
+    }
+    .botonparticipar2{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .titleproyectos{
+        background-image: url(../assets/img/bg.png);
+        font-size: 2rem;
+        padding: 20%;
+    }
+    .youtubevideo{
+        margin-bottom: 2vh;
+    }
 }
+*/
 .nosotrosmain .nosotrosmain__container .nosotrosmain__container__div1 .nosotrosmain__container__div1__div1 {
   margin: 0%;
   padding: 0%;

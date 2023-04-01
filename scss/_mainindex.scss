@@ -243,98 +243,139 @@
     .containermainindex__div4{
         display: flex;
         background-color: $color-black;
+        .containermainindex__div4__div1{
+            .containermainindex__div4__div1__img{
+
+            }
+        }
+        .containermainindex__div4__div2{
+            .containermainindex__div4__div2__img{
+                
+            }
+        }
+        .containermainindex__div4__div3{
+            .containermainindex__div4__div3__img{
+                
+            }
+        }
+        .containermainindex__div4__div4{
+            .containermainindex__div4__div4__img{
+                
+            }
+        }
+        .containermainindex__div4__div5{
+            .containermainindex__div4__div5__img{
+                
+            }
+        }
+        .containermainindex__div4__div6{
+            .containermainindex__div4__div6__img{
+                
+            }
+        }
+        .containermainindex__div4__div7{
+            .containermainindex__div4__div7__img{
+                
+            }
+        }
+        .containermainindex__div4__div8{
+            .containermainindex__div4__div8__img{
+                
+            }
+        }
     }
 }
 @media (max-width: 760px){
-}
-.containermainindex{
-    overflow: hidden;
-    .containermainindex__div1{
-        .containermainindex__div1__video{
+    .containermainindex{
+        overflow: hidden;
+        .containermainindex__div1{
+            background-image: url(../assets/img/bg.png);
+            min-height: 50vh;
+            .containermainindex__div1__video{
+            }
+            .containermainindex__div1__div1{
+                .containermainindex__div1__div1__p{
+                }
+                .containermainindex__div1__div1_button{
+                }
+                .containermainindex__div1__div1_button:hover{
+                }
+            }
         }
-        .containermainindex__div1__div1{
-            .containermainindex__div1__div1__p{
+        .containermainindex__div2{
+            .containermainindex__div2_div1{
+                .containermainindex__div2_div1__img{
+                }
+                .containermainindex__div2_div1__div{
+                }
+                .containermainindex__div2_div1__p{
+                }
             }
-            .containermainindex__div1__div1_button{
+            .containermainindex__div2_div2{
+                .containermainindex__div2_div2__img{
+                }
+                .containermainindex__div2_div2__div{
+                }
+                .containermainindex__div2_div2__p{
+                }
             }
-            .containermainindex__div1__div1_button:hover{
+            .containermainindex__div2_div3{
+                .containermainindex__div2_div3__img{
+                }
+                .containermainindex__div2_div3__div{
+                }
+                .containermainindex__div2_div3__p{
+                }
+            }
+            .containermainindex__div2_div4{
+                .containermainindex__div2_div4__div1{
+                    .containermainindex__div2_div4__div1__p{
+                    }
+                }
+                .containermainindex__div2_div4__div2{
+                    .containermainindex__div2_div4__div2__p{
+                    }
+                }
+            }
+            .containermainindex__div2_div5{
+                .containermainindex__div2_div5__div1{
+                    .containermainindex__div2_div5__div1__p{
+                    }
+                }
+                .containermainindex__div2_div5__div2{
+                    .containermainindex__div2_div5__div2__p{
+                    }
+                }
+            }
+            .containermainindex__div2_div6{
+                .containermainindex__div2_div6__div1{
+                    .containermainindex__div2_div6__div1__p{
+                    }
+                }
+                .containermainindex__div2_div6__div2{
+                    .containermainindex__div2_div6__div2__p{
+                    }
+                }
+            }
+        }
+        .containermainindex__div3{
+            .containermainindex__div3__div1{
+                .containermainindex__div3__div1__div1{
+                    .containermainindex__div3__div1__div1__p{
+                    }
+                    .containermainindex__div3__div1__div1__button{
+                    }
+                    .containermainindex__div3__div1__div1__button:hover{
+                    }
+                }
+                .containermainindex__div3__div1__div2{
+                    .containermainindex__div3__div1__div2__img{
+                        display: none;
+                    }
+                }
             }
         }
     }
-    .containermainindex__div2{
-        .containermainindex__div2_div1{
-            .containermainindex__div2_div1__img{
-            }
-            .containermainindex__div2_div1__div{
-            }
-            .containermainindex__div2_div1__p{
-            }
-        }
-        .containermainindex__div2_div2{
-            .containermainindex__div2_div2__img{
-            }
-            .containermainindex__div2_div2__div{
-            }
-            .containermainindex__div2_div2__p{
-            }
-        }
-        .containermainindex__div2_div3{
-            .containermainindex__div2_div3__img{
-            }
-            .containermainindex__div2_div3__div{
-            }
-            .containermainindex__div2_div3__p{
-            }
-        }
-        .containermainindex__div2_div4{
-            .containermainindex__div2_div4__div1{
-                .containermainindex__div2_div4__div1__p{
-                }
-            }
-            .containermainindex__div2_div4__div2{
-                .containermainindex__div2_div4__div2__p{
-                }
-            }
-        }
-        .containermainindex__div2_div5{
-            .containermainindex__div2_div5__div1{
-                .containermainindex__div2_div5__div1__p{
-                }
-            }
-            .containermainindex__div2_div5__div2{
-                .containermainindex__div2_div5__div2__p{
-                }
-            }
-        }
-        .containermainindex__div2_div6{
-            .containermainindex__div2_div6__div1{
-                .containermainindex__div2_div6__div1__p{
-                }
-            }
-            .containermainindex__div2_div6__div2{
-                .containermainindex__div2_div6__div2__p{
-                }
-            }
-        }
-    }
-    .containermainindex__div3{
-        .containermainindex__div3__div1{
-            .containermainindex__div3__div1__div1{
-                .containermainindex__div3__div1__div1__p{
-                }
-                .containermainindex__div3__div1__div1__button{
-                }
-                .containermainindex__div3__div1__div1__button:hover{
-                }
-            }
-            .containermainindex__div3__div1__div2{
-                .containermainindex__div3__div1__div2__img{
-                    display: none;
-                }
-            }
-        }
-    }
-    
 }
 /*
 .secindex1{
@@ -456,25 +497,11 @@
     .index3{
         display: none;
     }
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 760px) {
-
     .secindex1{
         background-image: url(../assets/img/bg.png);
         min-height: 50vh;
     }
+
     .textindex{
         font-size: 1.5rem;
     }
@@ -501,3 +528,4 @@
         margin-bottom: 2vh;
     }
 }
+*/
