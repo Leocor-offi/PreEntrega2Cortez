@@ -3,3 +3,13 @@ $color-white:white;
 $color-titulos:#0d1169;
 $font-3rem:3rem;
 $font-2rem:2rem;
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);

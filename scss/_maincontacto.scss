@@ -115,7 +115,7 @@
 @media (max-width: 760px) {
     .containercontacto1{
         .containercontacto1__principal{
-            display: flex;
+            display: map-get($map-flex,flex);
             position: relative;
             .containercontacto1__principal__img{
                 object-fit: cover;
