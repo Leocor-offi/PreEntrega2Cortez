@@ -1,3 +1,25 @@
+.card{
+    padding: 0%;
+    max-width: auto;
+    max-height: 50vh;
+    background-color: $color-black;
+    border-radius: 0;
+    padding: 0%;
+}
+.card img{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-img-overlay {
+        position: absolute;
+        top: auto;
+        bottom: auto;
+}
+a{
+    text-decoration: none;
+}
 @media (max-width: 760px) {
     video{
         display: none;

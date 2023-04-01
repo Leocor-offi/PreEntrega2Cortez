@@ -12,6 +12,9 @@
             position: absolute;
             top: auto;
             bottom: auto;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             .containermainindex__div1__div1__p{
                 justify-content: center;
                 align-items: center;
@@ -45,7 +48,7 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: 3rem;
+                font-size: $font-3rem;
             }
             .containermainindex__div1__div1_button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
@@ -77,7 +80,7 @@
             }
             .containermainindex__div2_div1__p{
                 color: $color-white;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight:900;
                 font-style: italic;
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
@@ -104,7 +107,7 @@
             }
             .containermainindex__div2_div2__p{
                 color: $color-white;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight:900;
                 font-style: italic;
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
@@ -131,7 +134,7 @@
             }
             .containermainindex__div2_div3__p{
                 color: $color-white;
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 font-weight:900;
                 font-style: italic;
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
@@ -139,50 +142,56 @@
             }
         }
         .containermainindex__div2_div4{
+            margin-top: 3vh;
             .containermainindex__div2_div4__div1{
                 .containermainindex__div2_div4__div1__p{
-                    color: #0d1169;
-                    font-size: 3rem;
+                    color: $color-titulos;
+                    font-size: $font-3rem;
                     font-weight: 900;
                 }
             }
             .containermainindex__div2_div4__div2{
                 .containermainindex__div2_div4__div2__p{
                     color: $color-black;
-                    font-size: 2rem;
+                    font-size: $font-2rem;
                     font-weight: 700;
+                    padding: 6vh;
                 }
             }
         }
         .containermainindex__div2_div5{
+            margin-top: 3vh;
             .containermainindex__div2_div5__div1{
                 .containermainindex__div2_div5__div1__p{
-                    color: #0d1169;
-                    font-size: 3rem;
+                    color: $color-titulos;
+                    font-size: $font-3rem;
                     font-weight: 900;
                 }
             }
             .containermainindex__div2_div5__div2{
                 .containermainindex__div2_div5__div2__p{
                     color: $color-black;
-                    font-size: 2rem;
+                    font-size: $font-2rem;
                     font-weight: 700;
+                    padding: 6vh;
                 }
             }
         }
         .containermainindex__div2_div6{
+            margin-top: 3vh;
             .containermainindex__div2_div6__div1{
                 .containermainindex__div2_div6__div1__p{
-                    color: #0d1169;
-                    font-size: 3rem;
+                    color: $color-titulos;
+                    font-size: $font-3rem;
                     font-weight: 900;
                 }
             }
             .containermainindex__div2_div6__div2{
                 .containermainindex__div2_div6__div2__p{
                     color: $color-black;
-                    font-size: 2rem;
+                    font-size: $font-2rem;
                     font-weight: 700;
+                    padding: 6vh;
                 }
             }
         }
@@ -191,19 +200,21 @@
         .containermainindex__div3__div1{
             display: flex;
             background-color: rgb(255, 250, 232);
-            min-height: 80vh;
+            min-height: 90vh;
+            padding: 10vh;
             .containermainindex__div3__div1__div1{
                 align-items: center;
                 justify-content: center;
                 text-align: center;
                 .containermainindex__div3__div1__div1__p{
                     color: $color-black;
-                    font-size: 2rem;
+                    font-size: 2.5rem;
                     font-weight: 700;
                     margin: 2vh;
+                    line-height: 2;
                 }
                 .containermainindex__div3__div1__div1__button{
-                    margin: 2vh;
+                    margin: 4vh;
                     align-items: center;
                     appearance: none;
                     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
@@ -225,7 +236,7 @@
                     padding-right: 30px;
                     position: relative;
                     text-align: left;
-                    font-size: 3rem;
+                    font-size: $font-3rem;
                 }
                 .containermainindex__div3__div1__div1__button:hover{
                     background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
@@ -312,85 +323,57 @@
 @media (max-width: 760px){
     .containermainindex{
         overflow: hidden;
+        padding: 0%;
         .containermainindex__div1{
             background-image: url(../assets/img/bg.png);
             min-height: 50vh;
-            .containermainindex__div1__video{
-            }
             .containermainindex__div1__div1{
                 .containermainindex__div1__div1__p{
-                    font-size: 1.5rem;
-                }
-                .containermainindex__div1__div1_button{
-                }
-                .containermainindex__div1__div1_button:hover{
+                    font-size:1.5rem;
+                    line-height: 2;
                 }
             }
         }
         .containermainindex__div2{
             .containermainindex__div2_div1{
-                .containermainindex__div2_div1__img{
-                }
-                .containermainindex__div2_div1__div{
-                }
-                .containermainindex__div2_div1__p{
-                }
-            }
-            .containermainindex__div2_div2{
-                .containermainindex__div2_div2__img{
-                }
-                .containermainindex__div2_div2__div{
-                }
-                .containermainindex__div2_div2__p{
-                }
-            }
-            .containermainindex__div2_div3{
-                .containermainindex__div2_div3__img{
-                }
-                .containermainindex__div2_div3__div{
-                }
                 .containermainindex__div2_div3__p{
+                    font-size: 2.4rem;
                 }
             }
             .containermainindex__div2_div4{
-                .containermainindex__div2_div4__div1{
-                    .containermainindex__div2_div4__div1__p{
-                    }
-                }
                 .containermainindex__div2_div4__div2{
                     .containermainindex__div2_div4__div2__p{
+                        padding: 3vh;
                     }
                 }
             }
             .containermainindex__div2_div5{
-                .containermainindex__div2_div5__div1{
-                    .containermainindex__div2_div5__div1__p{
-                    }
-                }
                 .containermainindex__div2_div5__div2{
                     .containermainindex__div2_div5__div2__p{
+                        padding: 3vh;
                     }
                 }
             }
             .containermainindex__div2_div6{
-                .containermainindex__div2_div6__div1{
-                    .containermainindex__div2_div6__div1__p{
-                    }
-                }
                 .containermainindex__div2_div6__div2{
                     .containermainindex__div2_div6__div2__p{
+                        padding: 3vh;
                     }
                 }
             }
         }
         .containermainindex__div3{
             .containermainindex__div3__div1{
+                padding: 5vh;
                 .containermainindex__div3__div1__div1{
                     .containermainindex__div3__div1__div1__p{
+                        line-height: 1.3;
                     }
                     .containermainindex__div3__div1__div1__button{
-                    }
-                    .containermainindex__div3__div1__div1__button:hover{
+                        font-size: $font-2rem;
+                        line-height: 1;
+                        min-height: 14vh;
+                        text-align: center;
                     }
                 }
                 .containermainindex__div3__div1__div2{

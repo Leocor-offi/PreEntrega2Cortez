@@ -32,8 +32,8 @@
         border: 3px $color-black;
         .containerevento2__div1__div1{
             .containerevento2__div1__div1__h2{
-                color: #0d1169;
-                font-size: 3rem;
+                color: $color-titulos;
+                font-size: $font-3rem;
                 font-weight: 900;
                 padding: 2vh;
             }
@@ -71,7 +71,7 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: 3rem;
+                font-size: $font-3rem;
             }
             .containerevento2__div1__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
@@ -89,8 +89,8 @@
         border: 3px $color-black;
         .containerevento2__div2__div1{
             .containerevento2__div2__div1__h2{
-                color: #0d1169;
-                font-size: 3rem;
+                color: $color-titulos;
+                font-size: $font-3rem;
                 font-weight: 900;
                 padding: 2vh;
             }
@@ -128,7 +128,7 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: 3rem;
+                font-size: $font-3rem;
             }
             .containerevento2__div2__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
@@ -146,8 +146,8 @@
         border: 3px $color-black;
         .containerevento2__div3__div1{
             .containerevento2__div3__div1__h2{
-                color: #0d1169;
-                font-size: 3rem;
+                color: $color-titulos;
+                font-size: $font-3rem;
                 font-weight: 900;
                 padding: 2vh;
             }
@@ -185,7 +185,7 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: 3rem;
+                font-size: $font-3rem;
             }
             .containerevento2__div3__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
@@ -198,52 +198,112 @@
 @media (max-width: 760px){
     .containerevento1{
         .containerevento1__div{
+            display: flex;
+            position: relative;
             .containerevento1__div__img{
+                filter: none;
             }
             .containerevento1__div__h1{
+                font-size: $font-3rem;
+                translate: 0% -60%;
             }
         }
     }
     .containerevento2{
         .containerevento2__div1{
+            padding: 0%;
+            margin: 0%;
+            margin-bottom: 7vh;
             .containerevento2__div1__div1{
+                padding: 0%;
+                margin: 0%;
                 .containerevento2__div1__div1__h2{
+                    margin-top: 5vh;
+                    text-align: center;
+                    line-height: 1.3;
                 }
             }
             .containerevento2__div1__div2{
                 .containerevento2__div1__div2__p{
+                    line-height: 1.8;
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                 }
+            }
+            .map{
+                width: 300px;
+                margin-bottom: 8vh;
             }
             .containerevento2__div1__div3{
                 .containerevento2__div1__div3__button{
+                    font-size: 1.7rem;
+                    text-align: center;
+                    margin-bottom: 5vh;
                 }
             }
         }
         .containerevento2__div2{
+            padding: 0%;
+            margin: 0%;
+            margin-bottom: 7vh;
             .containerevento2__div2__div1{
+                padding: 0%;
+                margin: 0%;
                 .containerevento2__div2__div1__h2{
+                    margin-top: 5vh;
+                    text-align: center;
+                    line-height: 1.3;
                 }
             }
             .containerevento2__div2__div2{
                 .containerevento2__div2__div2__p{
+                    line-height: 1.8;
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                 }
+            }
+            .map{
+                width: 300px;
+                margin-bottom: 8vh;
             }
             .containerevento2__div2__div3{
                 .containerevento2__div2__div3__button{
+                    font-size: 1.7rem;
+                    text-align: center;
+                    margin-bottom: 5vh;
                 }
             }
         }
         .containerevento2__div3{
+            padding: 0%;
+            margin: 0%;
+            margin-bottom: 7vh;
             .containerevento2__div3__div1{
+                padding: 0%;
+                margin: 0%;
                 .containerevento2__div3__div1__h2{
+                    margin-top: 5vh;
+                    text-align: center;
+                    font-size: 2.5rem;
+                    line-height: 1.3;
                 }
             }
             .containerevento2__div3__div2{
                 .containerevento2__div3__div2__p{
+                    line-height: 1.8;
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                 }
+            }
+            .map{
+                width: 300px;
+                margin-bottom: 8vh;
             }
             .containerevento2__div3__div3{
                 .containerevento2__div3__div3__button{
+                    font-size: 1.7rem;
+                    text-align: center;
+                    margin-bottom: 5vh;
                 }
             }
         }
