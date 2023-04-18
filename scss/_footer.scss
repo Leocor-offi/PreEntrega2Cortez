@@ -11,6 +11,12 @@
             .footer__div__redes__i{
                 font-size: $font-3rem;
             }
+            .footer__div__redes__i:hover{
+                transform: scale(130%);
+                transition: 0.5s;
+                color: #ffc710;
+                text-shadow: 0 0 5px #ffc710;
+            }
         }
     }
 }
@@ -28,23 +34,3 @@
         }
     }
 }
-/*
-.footer__redes{
-    display: flex;
-    justify-content: space-around;
-    min-width: 30vw;
-}
-.footer__redes__i{
-    font-size: 3rem;
-}
-@media (max-width: 760px) {
-    .footer{
-        padding: 1.5vh;
-        font-size: 1rem;
-    }
-    .footer__redes__i{
-        margin: 2.5px;
-        font-size: 3rem;
-    }
-}
-*/

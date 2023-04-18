@@ -70,6 +70,7 @@
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                 transition: 0.3s;
+                transform: scale(110%);
             }
         }
     }
@@ -104,6 +105,7 @@
                     background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                     text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                     transition: 0.3s;
+                    transform: scale(110%);
                 }
                 .containercontacto2__div2__form__div__label{
                     font-size: 1.2rem;
@@ -159,32 +161,13 @@
         }
     }
 }
-/*
-.imgcontacto{
-    object-fit: cover;
-    min-width: 100%;
-    max-width: 100%;
+@media (min-width: 761px) and (max-width: 1200px){
+    .containercontacto1{
+        .containercontacto1__principal{
+            .containercontacto1__principal__titulo{
+                font-size: 5rem;
+                position: absolute;top: 40%
+            }
+        }
+    }
 }
-.titletcontacto{
-    color: $color-black;
-}
-.contactotext{
-    color: $color-black;
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 1vh;
-    padding: 1vh;
-    text-align: center;
-}
-.contactoform{
-    max-width: 80%;
-}
-.formulario{
-    margin:2vh
-}
-.tituloevent{
-    position: relative;
-    text-align: center;
-    color: $color-white;
-}
-*/

@@ -20,8 +20,17 @@
 a{
     text-decoration: none;
 }
+.iconmain:hover{
+    transform: scale(130%);
+    transition: 0.5s;
+}
 @media (max-width: 760px) {
     video{
         display: none;
+    }
+}
+@media (min-width: 761px) and (max-width: 1200px){
+    .map{
+        width: 300px;
     }
 }

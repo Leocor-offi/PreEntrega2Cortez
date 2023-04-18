@@ -1,4 +1,5 @@
 .nosotrosmain{
+    overflow-x: hidden;
     .nosotrosmain__container{
         .nosotrosmain__container__div1{
             .nosotrosmain__container__div1__div1{
@@ -129,39 +130,3 @@
         }
     }
 }
-/*
-.nosotrosimg{
-    padding: 0%;
-    margin: 0%;
-}
-.nosotrostext{
-    color: $color-black;
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 0%;
-    padding: 1vh;
-}
-.sec1nosotros{
-    margin: 0%;
-    padding: 0%;
-    background-color: $color-black;
-}
-.imgnosotros{
-    margin: 0%;
-    padding: 0%;
-    object-fit: cover;
-}
-.titletnosotros{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    color: $color-white;
-    font-size: 5rem;
-    font-weight: 900;
-    text-align: center;
-    width: fit-content;
-}
-.sec2nosotros{
-    padding: 0%;
-}
-*/

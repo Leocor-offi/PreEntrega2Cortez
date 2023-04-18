@@ -1,5 +1,6 @@
 .contenedor1{
     .contenedor1__div{
+        overflow-x: hidden;
         .contenedor1__div__h1{
             position: relative;
             justify-content: center;
@@ -13,6 +14,7 @@
             padding: 40vh;
             min-width: 100%;
             text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
+            
         }
     }
 }
@@ -111,39 +113,24 @@
         }
     }
 }
-/*
-.titleproyectos{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    color: $color-white;
-    font-size: 7rem;
-    font-weight: 900;
-    text-align: center;
-    width: fit-content;
-    background-image: url(../assets/img/proyectos.png);
-    padding: 40vh;
-    min-width: 100%;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
+@media (min-width: 761px) and (max-width: 1200px){
+    .contenedor1{
+        .contenedor1__div{
+            overflow-x: hidden;
+            .contenedor1__div__h1{
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                color: $color-white;
+                font-size: 5rem;
+                font-weight: 900;
+                text-align: center;
+                width: fit-content;
+                background-image: url(../assets/img/proyectos.png);
+                padding: 25vh;
+                min-width: 100%;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
+            }
+        }
+    }
 }
-.secproyectos{
-    margin: 0%;
-    padding: 0%;
-}
-.proyectotitles{
-    text-align: center;
-    padding: 2vh;
-}
-.proyectostext{
-    color: $color-black;
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 0%;
-    padding: 4vh;
-}
-.youtubevideo{
-    margin: 0%;
-    padding: 0%;
-    min-width: 100%;
-}
-*/

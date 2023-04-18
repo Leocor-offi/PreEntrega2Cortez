@@ -54,6 +54,7 @@
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                 transition: 0.3s;
+                transform: scale(110%);
             }
         }
     }
@@ -110,7 +111,7 @@
                 font-size: 2.5rem;
                 font-weight:900;
                 font-style: italic;
-                text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
+                text-shadow: 4px 4px 4px rgba(0,0,0,0.61);
                 text-align: center;
             }
         }
@@ -137,7 +138,7 @@
                 font-size: 2.5rem;
                 font-weight:900;
                 font-style: italic;
-                text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
+                text-shadow: -2px -2px 2px rgba(0,0,0,0.61);
                 text-align: center;
             }
         }
@@ -156,6 +157,7 @@
                     font-size: $font-2rem;
                     font-weight: 700;
                     padding: 6vh;
+                    text-align: center;
                 }
             }
         }
@@ -174,6 +176,7 @@
                     font-size: $font-2rem;
                     font-weight: 700;
                     padding: 6vh;
+                    text-align: center;
                 }
             }
         }
@@ -192,6 +195,7 @@
                     font-size: $font-2rem;
                     font-weight: 700;
                     padding: 6vh;
+                    text-align: center;
                 }
             }
         }
@@ -236,12 +240,13 @@
                     padding-right: 30px;
                     position: relative;
                     text-align: left;
-                    font-size: $font-3rem;
+                    font-size: 2rem;
                 }
                 .containermainindex__div3__div1__div1__button:hover{
                     background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                     text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                     transition: 0.3s;
+                    transform: scale(110%);
                 }
             }
             .containermainindex__div3__div1__div2{
@@ -385,154 +390,29 @@
         }
     }
 }
-/*
-.secindex1{
-    padding: 0%;
-    display: flex;
-    background-color: $color-black;
-    min-width: 100vh;
-}
-.videobg{
-    min-width: 100%;
-    padding: 0%;
-}
-.textindex{
-    justify-content: center;
-    align-items: center;
-    color: $color-white;
-    font-size: 5rem;
-    font-weight: 900;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
-    text-align: center;
-    width: fit-content;
-}
-.secindex2{
-    display: flex;
-    background-color: $color-white;
-}
-.card{
-    padding: 0%;
-    max-width: auto;
-    max-height: 50vh;
-    background-color: $color-black;
-    border-radius: 0;
-    padding: 0%;
-}
-.card img{
-    margin: 0%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.datatext{
-    color: $color-white;
-    font-size: 3.5rem;
-    font-weight:900;
-    font-style: italic;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.61);
-    text-align: center;
-}
-.accesstextindextitle{
-    color: #0d1169;
-    font-size: 3rem;
-    font-weight: 900;
-}
-.accesstextindex{
-    color: $color-black;
-    font-size: 2rem;
-    font-weight: 700;
-}
-.secindex3{
-    display: flex;
-    background-color: rgb(255, 250, 232);
-    min-height: 80vh;
-}
-.sectextunirse{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.textindexunirse{
-    color: $color-black;
-    font-size: 2rem;
-    font-weight: 700;
-    margin: 2vh;
-}
-.botonparticipar2{
-    align-items: center;
-    appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-    border: 0;
-    border-radius: 6px;
-    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: $color-white;
-    cursor: pointer;
-    display: inline-flex;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-    text-align: left;
-    font-size: 3rem;
-    margin: 3vh;
-}
-.imgunirse{
-    min-height: 100%;
-}
-.secindex4{
-    display: flex;
-    background-color: $color-black;
-}
-.card-img-overlay {
-    position: absolute;
-    top: auto;
-    bottom: auto;
-}
-@media (max-width: 760px) {
+@media (min-width: 761px) and (max-width: 1200px){
     .containermainindex{
-        overflow: hidden;
-    }
-    .video{
-        display: none;
-    }
-    .index3{
-        display: none;
-    }
-    .secindex1{
-        background-image: url(../assets/img/bg.png);
-        min-height: 50vh;
-    }
-    .textindex{
-        font-size: 1.5rem;
-    }
-    .botonparticipar{
-        font-size: 1.5rem;
-    }
-    .datatext{
-        font-size: 2rem;
-    }
-    
-    .textindexunirse{
-        font-size: 1.5rem;
-    }
-    .botonparticipar2{
-        font-size: 1rem;
-        text-align: center;
-    }
-    .titleproyectos{
-        background-image: url(../assets/img/bg.png);
-        font-size: 2rem;
-        padding: 20%;
-    }
-    .youtubevideo{
-        margin-bottom: 2vh;
+        overflow-x: clip;
+        .containermainindex__div1{
+            .containermainindex__div1__div1{
+                .containermainindex__div1__div1__h1{
+                    font-size: 2.5rem;
+                }
+            }
+        }    
+        .containermainindex__div3{
+            .containermainindex__div3__div1{
+                .containermainindex__div3__div1__div1{
+                    .containermainindex__div3__div1__div1__button{
+                        font-size: 1.5rem;
+                    }
+                }
+                .containermainindex__div3__div1__div2{
+                    .containermainindex__div3__div1__div2__img{
+                        min-height: 50vh;
+                    }
+                }
+            }
+        }
     }
 }
-*/

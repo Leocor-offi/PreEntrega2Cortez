@@ -30,6 +30,7 @@
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
         border: 3px $color-black;
+        overflow-x: hidden;
         .containerevento2__div1__div1{
             .containerevento2__div1__div1__h2{
                 color: $color-titulos;
@@ -71,12 +72,13 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: $font-3rem;
+                font-size: 2rem;
             }
             .containerevento2__div1__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                 transition: 0.3s;
+                transform: scale(110%);
             }
         }
     }
@@ -123,12 +125,13 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: $font-3rem;
+                font-size: 2rem;
             }
             .containerevento2__div2__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                 transition: 0.3s;
+                transform: scale(110%);
             }
         }
     }
@@ -175,12 +178,13 @@
                 padding-right: 30px;
                 position: relative;
                 text-align: left;
-                font-size: $font-3rem;
+                font-size: 2rem;
             }
             .containerevento2__div3__div3__button:hover{
                 background-image: radial-gradient(100% 100% at 100% 0, #fafafa 0, #5468ff 100%);
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.33);
                 transition: 0.3s;
+                transform: scale(110%);
             }
         }
     }
@@ -299,76 +303,36 @@
         }
     }
 }
-/*
-.imgeventos{
-    max-width: 100%;
-    filter: blur(2px);
-}    
-.titleteventos{
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    color: $color-white;
-    font-size: 9rem;
-    font-weight: 900;
-    text-align: center;
-    width: fit-content;
-    margin: 0%;
-    padding: 0%;
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.51);
+@media (min-width: 761px) and (max-width: 1200px){
+    .containerevento1{
+        .containerevento1__div{
+            .containerevento1__div__h1{
+                font-size: 6rem;
+                position: absolute;top: 40%
+            }
+        }
+    }
+    .containerevento2{
+        .containerevento2__div1{
+            .containerevento2__div1__div3{
+                .containerevento2__div1__div3__button{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .containerevento2__div2{
+            .containerevento2__div2__div3{
+                .containerevento2__div2__div3__button{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .containerevento2__div3{
+            .containerevento2__div3__div3{
+                .containerevento2__div3__div3__button{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.eventostitles{
-    color: #0d1169;
-    font-size: 3rem;
-    font-weight: 900;
-    padding: 2vh;
-}
-.eventostext{
-    color: $color-black;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 1vh;
-    padding: 1vh;
-}
-.botonevento{
-    margin: 2vh;
-}
-.botonparticipar{
-    align-items: center;
-    appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
-    border: 0;
-    border-radius: 6px;
-    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-    box-sizing: border-box;
-    color: $color-white;
-    cursor: pointer;
-    display: inline-flex;
-    height: 48px;
-    justify-content: center;
-    line-height: 1;
-    list-style: none;
-    overflow: hidden;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-    text-align: left;
-    font-size: 3rem;
-    
-}
-.eventcard{
-    margin: 2vh;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
-    border: 3px $color-black;
-}
-*/

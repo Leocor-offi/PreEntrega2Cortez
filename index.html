@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2fac367478.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
@@ -62,7 +63,7 @@
             <div class="containermainindex__div2_div2 col-lg-4 d-flex flex-column justify-content-center align-items-center border-0">
                 <img src="./assets/img/data2.jpg" class="containermainindex__div2_div2__img card-img" alt="recolección de residuos plásticos en los océanos">
                 <div class="containermainindex__div2_div2__div">
-                <p class="containermainindex__div2_div2__p">777<br>Toneladas de residuos reciclados</p>
+                <p class="containermainindex__div2_div2__p">777<br>Toneladas de<br>residuos reciclados</p>
                 </div>
             </div>
             <div class="containermainindex__div2_div3 col-lg-4 d-flex flex-column justify-content-center align-items-center border-0">
@@ -73,39 +74,39 @@
             </div>
             <div class="containermainindex__div2_div4 col-lg-4 d-flex flex-column align-items-center">
                 <div>
-                    <a href="./pages/nosotros.html"><img src="./assets/img/iconnosotros.webp" alt="icono nosotros"></a>
+                    <a href="./pages/nosotros.html"><img src="./assets/img/iconnosotros.webp" alt="icono nosotros" class="iconmain"></a>
                 </div>
                 <div class="containermainindex__div2_div4__div1">
                     <h2 class="containermainindex__div2_div4__div1__h2">Nosotros</h2>
                 </div>
                 <div class="containermainindex__div2_div4__div2">
-                    <p class="containermainindex__div2_div4__div2__p">Comunidad centrada en el cuidado de nuestros mares, océanos y sus habitantes mejorando la calidad de vida y los ecosistemas</p>
+                    <p data-aos="fade-down" data-aos-duration="1000" class="containermainindex__div2_div4__div2__p">Comunidad centrada en el cuidado de nuestros mares, océanos y sus habitantes mejorando la calidad de vida y los ecosistemas</p>
                 </div>
             </div>
             <div class="containermainindex__div2_div5 col-lg-4 d-flex flex-column align-items-center">
                 <div>
-                    <a href="./pages/proyectos.html"><img src="./assets/img/iconproyectos.webp" alt="icono proyectos"></a>
+                    <a href="./pages/proyectos.html"><img src="./assets/img/iconproyectos.webp" alt="icono proyectos" class="iconmain"></a>
                 </div>
                 <div class="containermainindex__div2_div5__div1">
                     <h2 class="containermainindex__div2_div5__div1__h2">Proyectos</h2>
                 </div>
                 <div class="containermainindex__div2_div5__div2">
-                    <p class="containermainindex__div2_div5__div2__p">Proyectos centrados tanto en trabajos de la comunidad y de los ecosistemas costeros como en mar abierto y en los océanos</p>
+                    <p data-aos="fade-down" data-aos-duration="1500" class="containermainindex__div2_div5__div2__p">Proyectos centrados tanto en trabajos de la comunidad y de los ecosistemas costeros como en mar abierto y en los océanos</p>
                 </div>
             </div>
             <div class="containermainindex__div2_div6 col-lg-4 d-flex flex-column align-items-center">
                 <div>
-                    <a href="./pages/eventos.html"><img src="./assets/img/iconeventos.webp" alt="icono eventos"></a>
+                    <a href="./pages/eventos.html"><img src="./assets/img/iconeventos.webp" alt="icono eventos" class="iconmain"></a>
                 </div>
                 <div class="containermainindex__div2_div6__div1">
                     <h2 class="containermainindex__div2_div6__div1__h2">Eventos</h2>
                 </div>
                 <div class="containermainindex__div2_div6__div2">
-                    <p class="containermainindex__div2_div6__div2__p">Realizamos eventos informativos y de formación de comunidades en muchos países a lo largo del mundo</p>
+                    <p data-aos="fade-down" data-aos-duration="2000" class="containermainindex__div2_div6__div2__p">Realizamos eventos informativos y de formación de comunidades en muchos países a lo largo del mundo</p>
                 </div>
             </div>
         </div>
-        <div class="containermainindex__div3 row">
+        <div data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300" class="containermainindex__div3 row">
             <div class="containermainindex__div3__div1 d-flex flex-row justify-content-center align-items-center">
                 <div class="containermainindex__div3__div1__div1 col-lg-6">
                     <p class="containermainindex__div3__div1__div1__p">Forma parte de nuestra comunidad y ayuda a limpiar nuestras playas y mares, participa en mejorar nuestros océanos para las generaciones venideras y sus habitantes.
@@ -156,5 +157,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>
